@@ -9,7 +9,7 @@ config INITRAMFS_SOURCE
 	help
 	  This can be either a single cpio archive with a .cpio suffix or a
 	  space-separated list of directories and files for building the
-	  initramfs image.  A cpio archive should contain a filesystem archive
+	  initramfs image. A cpio archive should contain a filesystem archive
 	  to be used as an initramfs image.  Directories should contain a
 	  filesystem layout to be included in the initramfs image.  Files
 	  should contain entries according to the format described by the
